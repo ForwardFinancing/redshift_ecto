@@ -36,7 +36,7 @@ defmodule RedshiftEcto.MixProject do
     [
       {:ecto, "~> 2.2"},
       {:postgrex, "~> 0.13"},
-      {:ecto_replay_sandbox, "~> 1.0.0"},
+      {:ecto_replay_sandbox, "~> 1.0.0", only: :test},
       {:ex_doc, "~> 0.18", only: :dev, runtime: false},
       {:poison, "~> 2.2 or ~> 3.0", optional: true}
     ]
